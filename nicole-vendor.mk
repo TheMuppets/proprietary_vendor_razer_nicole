@@ -604,11 +604,9 @@ PRODUCT_PACKAGES += \
     libjpege \
     libkeymasterdeviceutils \
     libkeymasterutils \
-    liblearningmodule \
     liblqe \
     libmctfengine_stub \
     libmdsprpc \
-    libmeters \
     libminkdescriptor \
     libminksocket \
     libmmcamera_bestats \
