@@ -860,7 +860,6 @@ PRODUCT_PACKAGES += \
     verizondata \
     EuiccGoogle \
     MVS \
-    ONS \
     subsdm \
     ImsRcsService \
     QtiTelephonyService \
