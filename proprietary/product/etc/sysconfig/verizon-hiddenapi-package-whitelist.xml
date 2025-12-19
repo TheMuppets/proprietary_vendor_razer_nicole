@@ -1,0 +1,14 @@
+<config>
+<hidden-api-whitelisted-app package="com.verizon.mips.services" /> //MVS
+<hidden-api-whitelisted-app package="com.vzw.hss.myverizon" /> //MyVerizon
+<hidden-api-whitelisted-app package="com.vzw.ecid" /> //CallerName ID
+<hidden-api-whitelisted-app package="com.telecomsys.directedsms.android.SCG" /> //Location agent
+<hidden-api-whitelisted-app package="com.vcast.mediamanager" /> //VZCloud
+<hidden-api-whitelisted-app package="com.securityandprivacy.android.verizon.vms" /> //S P
+<hidden-api-whitelisted-app package=" com.vznavigator.Generic" /> //VZNavigator
+<hidden-api-whitelisted-app package="com.verizontelematics.verizonhum" /> //HUM
+<hidden-api-whitelisted-app package="com.slacker.radio" /> //Slacker Radio
+<hidden-api-whitelisted-app package="com.gotv.nflgamecenter.us.lite" /> //NFLMobile
+<hidden-api-whitelisted-app package="com.verizon.messaging.vzmsgs" /> //VZMessages
+<hidden-api-whitelisted-app package="com.verizon.demomode" /> //LLKAgent (Demo mode)
+</config>

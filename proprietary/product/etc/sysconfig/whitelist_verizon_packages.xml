@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 The Android Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<!-- The service must be whitelisted so they are always able to run. -->
+<config>
+    <allow-in-power-save package="com.vcast.mediamanager" />
+    <allow-in-power-save package="com.vzw.apnservice" />
+    <allow-in-power-save package="com.verizon.vzwavs" />
+    <allow-in-power-save package="com.motricity.verizon.ssodownloadable" />
+    <allow-in-power-save package="com.vzw.hss.myverizon" />
+    <allow-in-power-save package="com.verizon.mips.services" />
+    <allow-in-power-save package="com.cequint.ecid" />
+    <allow-in-power-save package="com.securityandprivacy.android.verizon.vms" />
+    <allow-in-power-save package="com.telecomsys.directedsms.android.SCG" />
+    <allow-in-power-save package="com.verizon.onetalk.dialer" />
+    <allow-in-power-save package="com.verizon.messaging.vzmsgs" />
+    <allow-in-power-save package="org.codeaurora.ims" />
+    <allow-in-power-save package="com.android.phone" />
+    <allow-in-power-save package="com.google.android.cellbroadcastreceiver" />
+    <allow-in-power-save package="com.oma.dm.sub" />
+    <allow-in-power-save package="com.oma.dm.diag" />
+    <allow-in-power-save package="com.oma.dm.report" />
+    <allow-in-power-save package="com.oma.dm" />
+
+    <allow-in-data-usage-save package="org.codeaurora.ims" />
+    <allow-in-data-usage-save package="com.android.phone" />
+    <allow-in-data-usage-save package="com.google.android.cellbroadcastreceiver" />
+    <allow-in-data-usage-save package="com.oma.dm.sub" />
+    <allow-in-data-usage-save package="com.oma.dm.diag" />
+    <allow-in-data-usage-save package="com.oma.dm.report" />
+    <allow-in-data-usage-save package="com.oma.dm" />
+    <allow-in-data-usage-save package="com.vzw.apnservice" />
+    <allow-in-data-usage-save package="com.verizon.vzwavs" />
+    <allow-in-data-usage-save package="com.motricity.verizon.ssodownloadable" />
+    <allow-in-data-usage-save package="com.verizon.mips.services" />
+    <allow-in-data-usage-save package="com.cequint.ecid" />
+    <allow-in-data-usage-save package="com.verizon.messaging.vzmsgs" />
+
+    <allow-implicit-broadcast action="com.verizon.provider.Settings.Phone_State_Modify" />
+    <allow-implicit-broadcast action="com.verizon.net.CONNECTIVITY_CHANGE" />
+    <allow-implicit-broadcast action="com.verizon.net.IMS_REGISTRATION" />
+    <allow-implicit-broadcast action="com.verizon.provider.ACTION_SETTING_CHANGED" />
+    <allow-implicit-broadcast action="com.verizon.provider.Settings.SIM_STATUS" />
+
+    <allow-implicit-broadcast action="com.verizon.provider.PACKAGE_ADDED" />
+    <allow-implicit-broadcast action="com.verizon.provider.PACKAGE_REMOVED" />
+    <allow-implicit-broadcast action="com.verizon.provider.REPLACED" />
+    <allow-implicit-broadcast action="com.verizon.avs.ACTION_RETRY" />
+    <allow-implicit-broadcast action="android.intent.action.ACTION_POWER_CONNECTED" />
+    <allow-implicit-broadcast action="android.intent.action.ACTION_POWER_DISCONNECTED" />
+
+    <!-- The OMA DM service must be whitelisted so they are always able to run. -->
+    <allow-in-power-save package="com.LogiaGroup.LogiaDeck" />
+    <allow-in-data-usage-save package="com.logiagroup.logiadeck" />
+    <app-link package="com.LogiaGroup.LogiaDeck"/>
+</config>
+

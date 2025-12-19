@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="com.vzw.apnlib" file="/product/app/VZWAPNLib/VZWAPNLib.apk" />
+    <library name="com.verizon.net" file="/product/framework/com.verizon.net.jar" />
+    <library name="com.verizon.ims" file="/product/framework/com.verizon.ims.jar" />
+    <library name="com.verizon.phone" file="/product/framework/com.verizon.phone.jar" />
+</permissions>
+
